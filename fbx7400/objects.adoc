@@ -143,8 +143,9 @@ FBXのオブジェクトは、オブジェクトをノードとして有向非�
 
 
 [[AnimCurveNode_]]
-=== `AnimCurveNode`
+=== `AnimCurveNode ()`
 ノード名 `AnimationCurveNode` 。
+subclassはない。
 
 [NOTE]
 .TODO
@@ -178,8 +179,9 @@ FBXのオブジェクトは、オブジェクトをノードとして有向非�
 
 
 [[AnimLayer_]]
-=== `AnimLayer`
+=== `AnimLayer ()`
 ノード名 `AnimationLayer` 。
+subclassはない。
 
 [NOTE]
 .TODO
@@ -207,8 +209,9 @@ FBXのオブジェクトは、オブジェクトをノードとして有向非�
 
 
 [[AnimStack_]]
-=== `AnimStack`
+=== `AnimStack ()`
 ノード名 `AnimationStack` 。
+subclassはない。
 
 いわゆる "take" のようなものと思われる。
 詳細不明。
@@ -400,7 +403,6 @@ Layer系ノードの構造はどこかで解説するべき
 [[Material_]]
 === `Material ()`
 ノード名 `Material` 。
-
 subclassはない。
 
 ==== 親
@@ -852,6 +854,7 @@ blender由来のデータによる確認なので、本来のFBX仕様に準拠�
 [[Texture_]]
 === `Texture ()`
 ノード名 `Texture` 。
+subclassはない。
 
 テクスチャ画像のファイル名やマッピング情報(UV set や拡大縮小)、ブレンドモードなどを持つ。
 
